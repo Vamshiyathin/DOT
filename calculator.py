@@ -1,15 +1,16 @@
-class Calculator:
- 
-    def add(self, x, y):
-        return x + y
- 
-    def subtract(self, x, y):
-        return x - y
- 
-    def multiply(self, x, y):
-        return x * y
- 
-    def divide(self, x, y):
-        if y == 0:
-            raise ValueError('Cannot divide by zero')
-        return x / y
+# This function adds two numbers
+def add(x, y):
+    return x + y
+# This function subtracts two numbers
+def subtract(x, y):
+    return x - y
+# This function multiplies two numbers
+def multiply(x, y):
+    return x * y
+# This function divides two numbers
+def divide(x, y):
+    if y==0:
+        raise ValueError('cannot divide by 0')
+    return x / y 
+def mod(x, y):
+    return x % y 
