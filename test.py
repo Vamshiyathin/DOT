@@ -13,7 +13,7 @@ class Testcalc(unittest.TestCase):
      self.assertEqual(result,50)
     def test_divide(self):
      result=calculator.divide(10,5)
-     self.assertEqual(result,4)
+     self.assertEqual(result,2)
   
 
 if __name__ == '__main__':
