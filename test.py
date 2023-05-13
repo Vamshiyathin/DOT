@@ -3,16 +3,16 @@ import calculator
 
 class Testcalc(unittest.TestCase):
     def test_add(self):
-     result=calc.add(10,5)
+     result=calculator.add(10,5)
      self.assertEqual(result,15)
     def test_subtract(self):
-     result=calc.subtract(10,5)
+     result=calcuulator.subtract(10,5)
      self.assertEqual(result,5)
     def test_multiply(self):
-     result=calc.multiply(10,5)
+     result=calculator.multiply(10,5)
      self.assertEqual(result,50)
     def test_divide(self):
-     result=calc.divide(10,5)
+     result=calculator.divide(10,5)
      self.assertEqual(result,4)
   
 
